@@ -1,0 +1,113 @@
+body{
+    align-items: center;
+    justify-content: center;
+    background-color:#E2EEFA;   
+}
+#main_hedaing{
+    background-color: rgb(253, 253, 253);
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+h2{
+    background-color:#6485A4;
+    color: white;
+}
+p{
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+#terms{
+       color: navy;
+}
+.social{
+     align-items: center; 
+    justify-content: center;
+    padding: 5px;
+}
+#birth_gender{
+    display: flex;
+    align-items: center;
+    
+}
+#male_female{
+    margin-left: 20px;
+}
+#phone_email{
+    align-items: center;
+    display: flex;
+
+}
+#email{
+    margin-left: 50px;
+}
+#id_security{
+    align-items: center;
+    display: flex;
+}
+#security{
+    margin-left: 50px;
+}
+#status{
+    align-items: center;
+    display: flex;
+}
+#marry{
+    margin-left: 10px;
+}
+#occupation{
+    align-items: center;
+    display: flex;
+}
+#yeah{
+    margin-left: 10px;
+}
+#are_you{
+    margin: 10px;
+}
+#employee{
+    align-items: center;
+     display: flex;
+}
+
+#child{
+    align-items: center;
+    display: flex;
+}
+#spouse{
+    align-items: center;
+    display: flex;
+}
+#plan_choice{
+    display: contents;
+}
+#unit_annual{
+    align-items: center;
+    display: flex;
+}
+#annual{
+    margin-left: 50px;
+}
+#payment_method{
+ display: flex;
+ align-items: center;
+}
+#annual{
+    margin-left: 10px;
+}
+#terms_signature{
+    display: flex;
+ align-items: center;
+}
+#sign{
+    text-align: end;
+    margin-left: 230px;
+}
+#date{
+    text-align: end;
+    margin-right: 140px;
+}
+#gender{
+    margin-left: 20px;
+}

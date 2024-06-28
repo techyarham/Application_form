@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Application Form</title>
+</head>
+
+<body>
+
+    <div>
+        <form action="#">
+            <div id="main_hedaing">
+                <h1>
+                    Application Form
+                </h1>
+
+            </div>
+            <fieldset>
+                <h2>A. General Questions:</h2>
+                <p>Proposed Insured's Name: <input type="text"></p>
+                <p>Father Name: <input type="text"></p>
+                <div id="birth_gender">
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" id="birthday" name="birthday">
+                    <p id="gender">Gender :</p>
+                    <p id="male_female">
+                        Male <input type="radio" name="gender" class="gen" id="male">
+                        Female <input type="radio" name="gender" class="gen" id="female">
+                    </p>
+                </div>
+                <p>Adress: <input type="text"></p>
+                <div id="phone_email">
+                    <p id="phone">Phone Number: <input type="number"></p>
+                    <p id="email">Email Adress: <input type="email"></p>
+                </div>
+                <div id="id_security">
+                    <p>Id Number: <input type="number"></p>
+                    <p id="security">Social Security Number: <input type="number"></p>
+                </div>
+                <div id="status">
+                    <p>Marital Status:</p>
+                    <p id="marry">
+                        Married <input type="radio" name="status" id="married">
+                        Unmarried <input type="radio" name="status" id="unmarried"></p>
+                </div>
+                <div id="occupation">
+                    <p>Occupation: <input type="text"></p>
+                    <p id="are_you">Are you retiree?</p>
+                    <p id="yeah">Yes <input type="radio" name="retirement" id="yes">
+                        No <input type="radio" name="retirement" id="no"></p>
+                </div>
+            </fieldset>
+            <div>
+                <fieldset>
+                    <h2>B. Type Of Health Coverage:</h2>
+                    <div id="plan_choice">
+                        <table border="1">
+                            <thead></thead>
+                            <tbody>
+                                <tr>
+
+                                    <td>
+                                        <div id="employee">
+                                            <p>Employee:</p>
+                                            <p>
+                                            <p>Yes <input type="radio" name="employee" id="yes">
+                                                No <input type="radio" name="employee" id="no"></p>
+
+                                            </p>
+                                        </div>
+                                        <p class="plan">Plan choice:</p>
+                                    </td>
+                                    <td>
+                                        <div id="spouse">
+                                            <p>Spouse:</p>
+                                            <p>
+                                            <p>Yes <input type="radio" name="spouse" id="yes">
+                                                No <input type="radio" name="spouse" id="no"></p>
+
+                                            </p>
+                                        </div>
+                                        <p>Plan choice:</p>
+                                    </td>
+                                    <td>
+                                        <div id="child">
+                                            <p>Childrens:</p>
+                                            <p>
+                                            <p>Yes <input type="radio" name="child" id="yes">
+                                                No <input type="radio" name="child" id="no"></p>
+
+                                            </p>
+                                        </div>
+                                        <p>Plan choice:</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot></tfoot>
+                        </table>
+                    </div>
+
+                    <h4>Complete if Spouse/Childrens are proposed for insurance: </h4>
+                    <table border="1">
+                        <thead>
+
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th> Name</th>
+                                <th> SSN No.</th>
+                                <th> Relationship to <br> proposed insured</th>
+                                <th> Birth <br>Date</th>
+                                <th>Age</th>
+                                <th> Sex</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text">
+                                </td>
+                                <td>
+                                    <input type="number">
+                                </td>
+                                <td>
+                                    <input type="text">
+                                </td>
+                                <td>
+                                    <input type="date">
+                                </td>
+                                <td>
+                                    <input type="number">
+                                </td>
+                                <td>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text">
+                                </td>
+                                <td>
+                                    <input type="number">
+                                </td>
+                                <td>
+                                    <input type="text">
+                                </td>
+                                <td>
+                                    <input type="date">
+                                </td>
+                                <td>
+                                    <input type="number">
+                                </td>
+                                <td>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text">
+                                </td>
+                                <td>
+                                    <input type="number">
+                                </td>
+                                <td>
+                                    <input type="text">
+                                </td>
+                                <td>
+                                    <input type="date">
+                                </td>
+                                <td>
+                                    <input type="number">
+                                </td>
+                                <td>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text">
+                                </td>
+                                <td>
+                                    <input type="number">
+                                </td>
+                                <td>
+                                    <input type="text">
+                                </td>
+                                <td>
+                                    <input type="date">
+                                </td>
+                                <td>
+                                    <input type="number">
+                                </td>
+                                <td>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot></tfoot>
+                    </table>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <h2>C. The Policy</h2>
+                    <div id="unit_annual">
+                        <p>Units: <input type="text"></p>
+                        <p id="annual">Annual Premium:<input type="text"></p>
+                    </div>
+                    <div id="payment_method">
+                        <p>Payment Method:</p>
+                        <p id="annual">Annual<input type="radio" name="payment_method" id="annual">
+                            Semi-Annual<input type="radio" name="payment_method" id="semi">
+                            Monthly<input type="radio" name="payment_method" id="monthly">
+                        </p>
+                    </div>
+                    <p>
+                        Cash With Application:$ <input type="number">
+
+                    </p>
+                    <p>
+                        Planned Modal Premium:$ <input type="number">
+
+                    </p>
+                    
+                        <h4>
+                            Terms & Conditions:
+                        </h4><div id="terms_signature">
+                        <p id="terms">Improvement should be measured regularly and assessed in <br> order for you to
+                            know what is
+                            beneficial and what is not . This will <br> help you set new targets. </p> 
+                        <p id="sign"> Signature: <input id="main_sign" type="text"></p>
+                    </div>
+                    <div>
+                        <p id="date">Date: <input type="date"></p>
+                    </div>
+                </fieldset>
+
+
+           
+
+
+
+    </div>
+    </form>
+
+    <a class="social" href="https://www.instagram.com/arham.pti" target="_blank"> <img src="instagram-line.png"
+            alt="img"></a>
+    <a class="social" href="https://www.linkedin.com/in/muhammad-arham-pti" target="_blank"> <img
+            src="linkedin-line.png" alt="img"></a>
+    <a class="social" href="https://github.com/techyarham" target="_blank"> <img src="github-fill.png" alt=""></a>
+    <div>
+        <a target="_blank" class="design" href="design.jpg">Design</a>
+    </div>
+</body>
+
+</html>
